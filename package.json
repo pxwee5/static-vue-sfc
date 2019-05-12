@@ -1,0 +1,23 @@
+{
+  "name": "tjcwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prepare": "pika-web --clean",
+    "start": "serve ./"
+  },
+  "devDependencies": {
+    "@pika/web": "^0.4.2",
+    "serve": "^11.0.0"
+  },
+  "dependencies": {
+    "http-vue-loader": "^1.4.0",
+    "vue": "^2.6.10"
+  },
+  "@pika/web": {
+    "webDependencies": [
+      "vue/dist/vue.esm.browser.js",
+      "http-vue-loader/src/httpVueLoader.js"
+    ]
+  }
+}
